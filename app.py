@@ -7,11 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1lXiRr_IBL9XObV-gOAi2kPjD1l-QsVbY
 """
 
-!pip install ag2[captainagent] -q
+--!pip install ag2[captainagent] -q
 
 
 
-!pip install streamlit openai
+--!pip install streamlit openai
 
 from google.colab import drive
 drive.mount('/content/drive')
@@ -37,7 +37,7 @@ visualization_style = st.selectbox("Select the visualization style:", ["Humorous
 from google.colab import userdata
 # OPENAI_API_KEY = userdata.get('OPENAI_API_KEY')
 
-!pip install dask[dataframe] -q
+--!pip install dask[dataframe] -q
 
 from autogen.agentchat.contrib.captainagent import CaptainAgent
 from autogen import UserProxyAgent
