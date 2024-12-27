@@ -1,3 +1,4 @@
+ag2[captainagent]
 streamlit==1.39.0
 pyautogen==0.2.16
 flaml[automl]
