@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1lXiRr_IBL9XObV-gOAi2kPjD1l-QsVbY
 """
 
-pip install ag2[captainagent] -q
+!pip install ag2[captainagent] -q
 
 
 
